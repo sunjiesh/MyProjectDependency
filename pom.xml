@@ -212,4 +212,12 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal Repository</name>
+			<url>file:///mvn-repo</url>
+		</repository>
+	</distributionManagement>
 </project>
