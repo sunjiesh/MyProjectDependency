@@ -4,7 +4,7 @@
 
 	<groupId>cn.com.sunjiesh</groupId>
 	<artifactId>project-parent</artifactId>
-	<version>0.2.4</version>
+	<version>0.2.5</version>
 	<packaging>pom</packaging>
 	<name>project-parent</name>
 	<properties>
@@ -27,17 +27,17 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 		</dependency>
-		
-<!-- 		<dependency> -->
-<!-- 		    <groupId>javax.validation</groupId> -->
-<!-- 		    <artifactId>validation-api</artifactId> -->
-<!-- 		</dependency> -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>javax.validation</groupId> -->
+		<!-- <artifactId>validation-api</artifactId> -->
+		<!-- </dependency> -->
 
 		<!--Spring -->
 		<dependency>
@@ -85,22 +85,22 @@
 			<artifactId>spring-jms</artifactId>
 		</dependency>
 	</dependencies>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-	            <groupId>javax.servlet</groupId>
-	            <artifactId>servlet-api</artifactId>
-	            <version>2.5</version>
-	            <scope>provided</scope>
-	        </dependency>
-			<dependency>
-			    <groupId>javax.validation</groupId>
-			    <artifactId>validation-api</artifactId>
-			    <version>1.0.0.GA</version>
+				<groupId>javax.servlet</groupId>
+				<artifactId>servlet-api</artifactId>
+				<version>2.5</version>
+				<scope>provided</scope>
 			</dependency>
-			
-			
+			<dependency>
+				<groupId>javax.validation</groupId>
+				<artifactId>validation-api</artifactId>
+				<version>1.0.0.GA</version>
+			</dependency>
+
+
 			<!--Spring -->
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -157,7 +157,7 @@
 				<artifactId>spring-jms</artifactId>
 				<version>${spring-version}</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.springframework.security</groupId>
 				<artifactId>spring-security-core</artifactId>
@@ -168,9 +168,9 @@
 				<artifactId>spring-security-web</artifactId>
 				<version>${spring-security-version}</version>
 			</dependency>
-			
-			
-			
+
+
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter</artifactId>
@@ -186,8 +186,14 @@
 				<artifactId>spring-data-redis</artifactId>
 				<version>1.5.2.RELEASE</version>
 			</dependency>
-			
-			
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-mongodb</artifactId>
+				<version>1.7.2.RELEASE</version>
+			</dependency>
+
+
+
 
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
@@ -218,7 +224,7 @@
 				<type>jar</type>
 			</dependency>
 
-			
+
 
 
 			<!-- ================================================= -->
@@ -273,13 +279,13 @@
 				<artifactId>jaxen</artifactId>
 				<version>1.1.6</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>redis.clients</groupId>
 				<artifactId>jedis</artifactId>
 				<version>2.7.3</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>cn.com.sunjiesh</groupId>
 				<artifactId>utils-thirdparty</artifactId>
@@ -319,7 +325,7 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 	<distributionManagement>
 		<repository>
 			<id>internal.repo</id>
