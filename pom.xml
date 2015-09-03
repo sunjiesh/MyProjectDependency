@@ -4,7 +4,7 @@
 
 	<groupId>cn.com.sunjiesh</groupId>
 	<artifactId>project-parent</artifactId>
-	<version>0.2.5</version>
+	<version>0.2.6</version>
 	<packaging>pom</packaging>
 	<name>project-parent</name>
 	<properties>
@@ -168,7 +168,11 @@
 				<artifactId>spring-security-web</artifactId>
 				<version>${spring-security-version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-config</artifactId>
+				<version>${spring-security-version}</version>
+			</dependency>
 
 
 			<dependency>
