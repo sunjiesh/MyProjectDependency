@@ -4,7 +4,7 @@
 
 	<groupId>cn.com.sunjiesh</groupId>
 	<artifactId>project-parent</artifactId>
-	<version>0.2.6</version>
+	<version>0.2.7</version>
 	<packaging>pom</packaging>
 	<name>project-parent</name>
 	<properties>
@@ -13,7 +13,7 @@
 		<spring-version>4.1.7.RELEASE</spring-version>
 		<spring-security-version>4.0.2.RELEASE</spring-security-version>
 		<testng.version>6.9.6</testng.version>
-		<utils.version>0.4.0</utils.version>
+		<utils.version>0.4.1</utils.version>
 	</properties>
 
 	<repositories>
