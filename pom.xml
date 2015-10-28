@@ -283,6 +283,14 @@
 				<artifactId>jaxen</artifactId>
 				<version>1.1.6</version>
 			</dependency>
+			
+			<!-- Apache Commons -->
+			<dependency>
+				<groupId>commons-beanutils</groupId>
+				<artifactId>commons-beanutils</artifactId>
+				<version>1.9.2</version>
+			</dependency>
+			
 
 			<dependency>
 				<groupId>redis.clients</groupId>
