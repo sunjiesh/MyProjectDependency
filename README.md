@@ -1,2 +1,2 @@
 # MyProjectParent
-原有项目代码删除，重新实现
+通过Maven Recipe #0方式引用
